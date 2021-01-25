@@ -1,0 +1,45 @@
+:root
+{
+    --var-width:0%;/*variable que vamos a utilizar para darle ancho a nuestro elemento ejemplo para los dos div al mismo tiempo*/
+}
+body
+{
+    margin: 0;
+    background-color: crimson;
+    font-family: sans-serif;
+    color: white;
+    user-select: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.load-bar
+{
+    width: 50%;
+    background-color: #ccc;
+    height: 10px;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.load-bar::after   /*ejemplo para los dos div al mismo tiempo */
+{
+    content: '';
+    position: absolute;/*se coloca respecto al div load-bar*/
+    top:0;
+    left: 0;
+    background-color: blue;
+    width: var(--var-width);
+    height: 10px;
+}
+
+.progress/*una vez usado el after para las dos barras este ya no sirve solo es para el ejemplo primero de javaScript*/
+{
+    display: block;
+    background-color: blue;
+    height: 10px;
+    width: 0;
+}

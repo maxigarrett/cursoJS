@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - jsd",
+            "request": "launch",
+            "mainClass": "jsd"
+        }
+    ]
+}

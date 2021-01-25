@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lazy Loading con HTML5</title>
+	<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Lazy Loading y Optimización de Imágenes</h1>
+	</header>
+
+	<main class="contenedor">
+        <!-- el atributo loading="lazy" permite hacer lo mismo que que la api de interceptio observer pero sin uso de libreria
+        solo con este atributo para que funcione contantemente hay q activar en herramientas de administrador disable cache
+        para que cuando recarguemos la pagina lo limpie y cargue solo las img necesarias hay que abrirlas con un servidor
+        para q funcione
+    
+        para comprimir imagenes  porque pesasn mucho usamos https://tinypng.com/
+        al comprimir la imgane con esta pagina no se pierde calidad y podemos seleccionar muchas y arrastrarlas
+        a un cuadrado para soltar y empiza a optiimizar y luego hay q descargar devuleta las imgenes-->
+		<div class="card"><img loading="lazy" src="img-optimizadas//1.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//2.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//3.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//4.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//5.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//6.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//7.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//8.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//9.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//10.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//11.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//12.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//13.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//14.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//15.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//16.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//17.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//18.jpg" alt=""></div>
+		<div class="card"><img loading="lazy" src="img-optimizadas//19.jpg" alt=""></div>
+	</main>
+</body>
+</html>

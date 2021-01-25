@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/a7c9296c8e.js" crossorigin="anonymous"></script>
+    <title>API File 2</title>
+</head>
+<body>
+
+    <!-- enctype="multipart/form-data" cuando vallamos a mandar datos multimedia -->
+    <form action="#" class="form" id="form" method="POST" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file" id="file">
+
+            <div id="drop-zone" class="drop-zone">
+                <i class="fas fa-download"></i>
+                <!-- <i class="fas fa-download"></i> -->
+               <p class="drop-zone__text">Drop zone or click to uploade file</p>
+            </div>
+            <input type="submit" value="Upload" id="upload-button" class="form__button">
+        </div>
+
+    </form>
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>

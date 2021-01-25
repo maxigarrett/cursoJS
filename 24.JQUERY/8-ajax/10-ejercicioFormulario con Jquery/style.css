@@ -1,0 +1,177 @@
+/* estilos generales */
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+.alert
+{
+    padding: 12px 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+body
+{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans' , sans-serif ;
+    font-size: 16px;
+}
+.contenedor
+{
+    width: 90%;
+    max-width: 1200px;/*los elementos dentro no pueden sobrepasar este maximo si lo hacen se pondran debajo al ser tan grandes*/
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+.contenedor h1
+{
+    font-size: 30px;
+    font-weight: 600;/*el porcentaje de negrita q tiene q tener*/
+    margin-bottom: 25px;
+    text-align: center;
+    color: #15CF8A;
+}
+.contenido
+{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.contenido .info,/*del 100% del ancho de contenedor le decimos que ocupe el .contenido y .formulario el 50% cada uno*/
+.contenido .formulario
+{
+    width: 50%;
+}
+
+/* ********************* */
+/* ESTILOS DIV INFO 
+**************************/
+.info
+{
+    padding-left: 10px;
+}
+.info .col
+{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: nowrap;/*se mantiene todo en una misma linea*/
+}
+.info .col .iconos
+{
+    color: #15CF8A;
+    margin-right: 10px;
+}
+.info .col p
+{
+    color: #999;
+    line-height: 24px;/*altura de linea osea el texto*/
+}
+.info .redes-s
+{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info .redes-s a
+{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #15CF8A;
+    color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+}
+.info .redes-s a:hover
+{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .4);
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+/* ********************* */
+/* ESTILOS FORMULARIO
+**************************/
+.formulario
+{
+    padding-left: 10px;
+}
+.formulario input[type='text'],
+.formulario input[type='email'],
+.formulario textarea
+{
+    width: 100%;
+    margin-bottom:15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-family: 'Open Sans' , sans-serif ;
+    font-weight: 400;
+    outline: 0;/*sacar los borden dentro de la caja*/
+}
+
+.formulario textarea
+{
+    max-width: 100%;
+    min-width: 100%;/*con esto dos el ancho no se puede modificar y deja por defecto*/
+    max-height: 200px;
+    min-height: 150px;
+}
+
+.formulario input[type='text']:focus,
+.formulario input[type='email']:focus,
+.formulario textarea:focus
+{
+    border: 2px solid #15CF8A;
+}
+.formulario .boton
+{
+    padding: 12px 30px;
+    border: transparent;
+    background-color: #15CF8A;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+@media screen and (max-width:520px)
+{
+    .contenedor
+    {
+        padding: 40px 20px;
+    }
+   .contenido .info,.contenido .formulario
+    {
+        width: 100%;
+        padding: 0px;
+    }
+    .contenido .info
+    {
+        margin-bottom: 30px;
+    }
+    .contenido 
+    {
+        display: flex;
+        flex-direction:column;
+    }
+}

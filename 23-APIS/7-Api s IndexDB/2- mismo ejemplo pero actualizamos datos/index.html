@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" class="form">
+
+        <label for="task"> Task</label>
+        <input type="text" name="task" id="">
+
+        <select name="priority" id="">
+            <option value="low">Low</option>
+            <option value="normal">Normal</option>
+            <option value="higth">Higth</option>
+        </select>
+        <!-- el data-action"add" -->
+        <button type="submit" name="button" class="button" data-action="add">Add Task</button>
+    </form>
+    <div id="task" class="task"></div>
+    <script src="index.js"></script>
+</body>
+</html>

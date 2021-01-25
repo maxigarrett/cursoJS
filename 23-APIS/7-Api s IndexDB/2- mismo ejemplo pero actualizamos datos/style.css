@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.button
+{
+    border-radius: 10px;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    padding: 5px;
+    width: 150px;
+}
+.task
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+    border: 1px dotted   rgb(255, 72, 0);
+    
+}

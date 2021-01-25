@@ -1,0 +1,22 @@
+[
+    {
+        "nombre":"Maxi",
+        "apellido":"Garrett",
+        "edad":28
+    },
+    {
+        "nombre":"Luis",
+        "apellido":"Perez",
+        "edad":45
+    },
+    {
+        "nombre":"Raul",
+        "apellido":"Garrett",
+        "edad":55
+    },
+    {
+        "nombre":"Adrian",
+        "apellido":"Moreno",
+        "edad":60
+    }
+]

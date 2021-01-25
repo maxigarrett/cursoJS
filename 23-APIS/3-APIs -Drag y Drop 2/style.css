@@ -1,0 +1,56 @@
+body
+{
+    margin: 0;
+    background-color: #ec407a;
+    font-family: sans-serif;
+    user-select: none; /*La propiedad CSS user-select controla si el usuario puede seleccionar el texto. Esto no tiene ningún 
+                        efecto en el contenido cargado bajo chrome, excepto en cuadros de texto.*/
+}
+
+.container
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.title
+{
+    margin:  0 0 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background-color: #7e57c2;
+}
+
+.tasks
+{
+    width: 30%;
+    text-align: center;
+    background-color: rgb(48, 166, 221);
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    min-height: 130px;
+}
+.task
+{
+    background-color: #7e57c2;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.task:first-child
+{
+    border-top: 1px solid black;
+}
+
+.task:last-child
+{
+    border-bottom: none;
+}
+
+
+.active
+{
+    background-color: white;
+    color: black;
+}

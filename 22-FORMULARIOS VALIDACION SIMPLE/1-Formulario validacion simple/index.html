@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Form 1</h1>
+
+    <form action="#" method="post" id="form" class="form">
+        <div class="form__field">
+            <label for="name" class="form__label">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form__field">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div id="gender" class="form__field">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="" value="male">
+            <label for="male">Famale</label>
+            <input type="radio" name="gender" value="famale" id="">
+        </div>
+        <div class="form__field">
+            <label for="terms">Iacept the terms and conditions</label>
+            <input type="checkbox" name="terms" id="terms">
+        </div>
+        <button type="submit" id="submitButtom" disabled>SEND</button>
+    </form>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+ 
+{
+    "empleados":
+    [
+        {
+            "nombre":"luis",
+            "sueldo":10000
+        },
+        {
+            "nombre":"Maxi",
+            "sueldo":2352352
+        },
+        {
+            "nombre":"Alberto",
+            "sueldo":1123452
+        }
+    ]
+}

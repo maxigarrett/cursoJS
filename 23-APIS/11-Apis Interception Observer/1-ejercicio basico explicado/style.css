@@ -1,0 +1,31 @@
+body
+{
+    margin: 0;
+    background-color: #2a2a2a;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: auto;
+    color: white;
+}
+.box
+{
+    background-color: purple;
+    font-size: 2rem;
+    margin-bottom: 100vh;
+    padding: 1.5rem 0;
+    position: relative;
+}
+.box::after
+{
+    content: "25%";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    background-color: peru;
+    height: 25%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

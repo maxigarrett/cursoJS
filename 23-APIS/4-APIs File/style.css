@@ -1,0 +1,18 @@
+body
+{
+    margin: 0;
+    background-color: crimson;
+    font-family: sans-serif;
+    color: white;
+    user-select: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+.images
+{
+    width: 200px;
+    height: 100px;
+}

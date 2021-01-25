@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7c9296c8e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor" class="contenedor"><!-- Contenedor principal-->
+        <h1>formulario Contacto</h1>
+        <div class="contenido"><!-- Contenedor de el formulario y de informacion de contacto-->
+            <div class="info"><!-- Contenedor de informacion de contacto-->
+                
+                <div class="col">
+                    <i class="iconos fas fa-map-marker-alt"></i>
+                    <p>Av. Irigoyen. Villa moll -navarro-BsAs-Argentina</p>
+                </div>
+
+                <div class="col">
+                    <i class="iconos fas fa-envelope"></i>
+                    <p>maxyg22@outlook.es</p>
+                </div>
+                <div class="col">
+                    <i class="iconos fas fa-phone"></i>
+                    <p>2346-609954 <br> 2272-498083</p>
+                </div>
+
+                <div class="redes-s">
+                    <a href="#"><i class=" fab fa-facebook-f"></i></a>
+                    <a href="#"><i class=" fab fa-twitter"></i></a>
+                    <a href="#"><i class=" fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form action="#" method="POST" class="formulario">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+                <input type="text" name="aunto" id="asunto" placeholder="Asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar" class="boton" id="botonEnviar">
+            </form>
+        </div>        
+    </div>
+    <script src="validateForm.js"></script>
+</body>
+</html>
